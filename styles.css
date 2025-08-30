@@ -1,0 +1,73 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  background: linear-gradient(to right, #000, #b00);
+  padding: 100px 20px;
+  text-align: center;
+}
+.cta {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 40px;
+}
+.product-card {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.price {
+  font-size: 20px;
+  color: #f33;
+}
+button {
+  background-color: #f33;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.about, .contact {
+  padding: 40px;
+  background-color: #1a1a1a;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+}
